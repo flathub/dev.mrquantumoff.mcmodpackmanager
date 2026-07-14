@@ -24,15 +24,15 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/quadrantmc/quadrant/raw/v26.7.5-stable/dev.mrquantumoff.mcmodpackmanager.metainfo.xml
-        sha256: c5ac28fbdd9b3a9eca98767577804de649d04411a4d029a77fad0eadd8187e8b
+        url: https://github.com/quadrantmc/quadrant/raw/v26.7.6-stable/dev.mrquantumoff.mcmodpackmanager.metainfo.xml
+        sha256: 99e77a8793fd0eba28ed1810cf06f90acc6474089fb79d278f9f5feb53557307
       - type: file
-        url: https://github.com/quadrantmc/quadrant/releases/download/v26.7.5-stable/Quadrant_26.7.5-stable_amd64.deb
-        sha256: 2a514063bf913b374bbcc3585c87e35419e6356bc358025db04561bb963378af
+        url: https://github.com/quadrantmc/quadrant/releases/download/v26.7.6-stable/Quadrant_26.7.6-stable_amd64.deb
+        sha256: 6b6eaf35b3984c41d47f6653a1d4bac6d1df92eaac01296139883b69c8d6c3b0
         only-arches: [x86_64]
       - type: file
-        url: https://github.com/quadrantmc/quadrant/releases/download/v26.7.5-stable/Quadrant_26.7.5-stable_arm64.deb
-        sha256: b66ecd2242e97817323a52308cddc46fa9f35710936b061b1aac79cdc7884e33
+        url: https://github.com/quadrantmc/quadrant/releases/download/v26.7.6-stable/Quadrant_26.7.6-stable_arm64.deb
+        sha256: 77b2d44ed1af4a9ecfde49cc29e3ef52f934aab0d679e571aac65be9a0422b57
         only-arches: [aarch64]
       - type: file
         path: run_quadrant
