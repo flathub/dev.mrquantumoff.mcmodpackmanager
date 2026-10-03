@@ -25,14 +25,14 @@ modules:
     sources:
       - type: file
         url: https://github.com/quadrantmc/quadrant/raw/v26.10.1-stable/dev.mrquantumoff.mcmodpackmanager.metainfo.xml
-        sha256: 2c4aa2933d86d2372ca1f6f91deb5b429e03e7515fcc7921f3f6f10a13d3ed4b
+        sha256: 385063ceba022d9abf96e61e23368bc3fe4cc7c3db8116da2fd805c3d9805839
       - type: file
         url: https://github.com/quadrantmc/quadrant/releases/download/v26.10.1-stable/Quadrant_26.10.1-stable_amd64.deb
-        sha256: a34bdc2ed7726d12a10d90dc358cb31a3d6cb7dc9dbc6221fb8fe443efaf2868
+        sha256: 918d952a6e4a2221339cd3fa88e709f3aca551d02d0aa183ea9a0201e8892bbb
         only-arches: [x86_64]
       - type: file
         url: https://github.com/quadrantmc/quadrant/releases/download/v26.10.1-stable/Quadrant_26.10.1-stable_arm64.deb
-        sha256: 91da060b75c537f60b305449d4e8fb96ec06293660466299cf4df4693374e1ab
+        sha256: 09062b601fb4fffca1278ea4e3ac97afdc2b3b90e276ce6baf3daf409b7a504c
         only-arches: [aarch64]
       - type: file
         path: run_quadrant
